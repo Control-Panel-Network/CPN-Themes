@@ -1,0 +1,15 @@
+﻿{
+  "schema_version": 1,
+  "id": "ocean-blue",
+  "name": "Ocean Blue",
+  "description": "Clear blue accents with comfortable density for everyday admin work.",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#2563eb",
+    "accent_focus": "#1d4ed8",
+    "radius_px": 12,
+    "density": "comfortable",
+    "font_scale": 1.0
+  }
+}

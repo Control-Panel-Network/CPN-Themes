@@ -1,0 +1,15 @@
+﻿{
+  "schema_version": 1,
+  "id": "high-contrast",
+  "name": "High Contrast",
+  "description": "Strong focus ring and larger type for maximum readability.",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#0f172a",
+    "accent_focus": "#1e40af",
+    "radius_px": 8,
+    "density": "comfortable",
+    "font_scale": 1.08
+  }
+}

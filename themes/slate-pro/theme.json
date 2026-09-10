@@ -1,0 +1,15 @@
+﻿{
+  "schema_version": 1,
+  "id": "slate-pro",
+  "name": "Slate Pro",
+  "description": "Compact slate accents suited to dense operator dashboards.",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#334155",
+    "accent_focus": "#475569",
+    "radius_px": 10,
+    "density": "compact",
+    "font_scale": 0.98
+  }
+}
