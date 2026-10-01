@@ -3,8 +3,8 @@
   "id": "graphite-terminal",
   "name": "Graphite Terminal",
   "description": "Near-black console surfaces with phosphor green cues for CLI-minded operators.",
-  "author": "Control Panel Network",
-  "version": "1.0.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#4ade80",
     "accent_focus": "#86efac",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "dark",
-    "body": "linear-gradient(180deg, #050705 0%, #0a0f0b 50%, #070a08 100%)",
-    "sidebar": "linear-gradient(180deg, #080c09 0%, #050705 100%)",
+    "body": "linear-gradient(180deg, rgba(5,7,5,0.72) 0%, rgba(7,10,8,0.82) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(8,12,9,0.92) 0%, rgba(5,7,5,0.95) 100%)",
     "surface": "#050705",
     "canvas": "#0b110d",
     "surface_soft": "#101810",
     "ink": "#dcfce7",
     "muted": "#86a896",
     "hairline": "#1f3326",
-    "preview": "linear-gradient(135deg, #050705 0%, #14532d 55%, #4ade80 100%)"
+    "preview": "linear-gradient(135deg, #050705 0%, #14532d 55%, #4ade80 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

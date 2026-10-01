@@ -3,8 +3,8 @@
   "id": "high-contrast",
   "name": "High Contrast",
   "description": "Crisp light surfaces, strong focus ring, and a subtle grid for maximum readability.",
-  "author": "Control Panel Network",
-  "version": "1.1.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#0f172a",
     "accent_focus": "#1e40af",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "light",
-    "body": "linear-gradient(180deg, #f8fafc 0%, #eef2f7 48%, #e2e8f0 100%)",
-    "sidebar": "linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%)",
+    "body": "linear-gradient(180deg, rgba(248,250,252,0.88) 0%, rgba(226,232,240,0.84) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(255,255,255,0.94) 0%, rgba(241,245,249,0.96) 100%)",
     "surface": "#f8fafc",
     "canvas": "#ffffff",
     "surface_soft": "#f1f5f9",
     "ink": "#0f172a",
     "muted": "#475569",
     "hairline": "#cbd5e1",
-    "preview": "linear-gradient(135deg, #ffffff 0%, #e2e8f0 55%, #0f172a 100%)"
+    "preview": "linear-gradient(135deg, #ffffff 0%, #e2e8f0 55%, #0f172a 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

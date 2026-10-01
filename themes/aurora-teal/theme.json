@@ -3,8 +3,8 @@
   "id": "aurora-teal",
   "name": "Aurora Teal",
   "description": "Night sky with teal and cyan aurora bands for a calm ops cockpit.",
-  "author": "Control Panel Network",
-  "version": "1.0.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#2dd4bf",
     "accent_focus": "#5eead4",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "dark",
-    "body": "linear-gradient(165deg, #041018 0%, #0a2230 35%, #0b2c36 65%, #071820 100%)",
-    "sidebar": "linear-gradient(180deg, rgba(4, 16, 24, 0.96) 0%, rgba(7, 24, 32, 0.98) 100%)",
+    "body": "linear-gradient(165deg, rgba(4,16,24,0.72) 0%, rgba(7,24,32,0.78) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(4,16,24,0.88) 0%, rgba(7,24,32,0.92) 100%)",
     "surface": "#071820",
     "canvas": "#0c2430",
     "surface_soft": "#123640",
     "ink": "#e6fffa",
     "muted": "#8fc4bc",
     "hairline": "#1f4f58",
-    "preview": "linear-gradient(135deg, #041018 0%, #0f766e 40%, #2dd4bf 70%, #67e8f9 100%)"
+    "preview": "linear-gradient(135deg, #041018 0%, #0f766e 40%, #2dd4bf 70%, #67e8f9 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

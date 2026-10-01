@@ -3,8 +3,8 @@
   "id": "forest-night",
   "name": "Forest Night",
   "description": "Quiet evergreen depths with moss highlights for long monitoring sessions.",
-  "author": "Control Panel Network",
-  "version": "1.0.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#34d399",
     "accent_focus": "#6ee7b7",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "dark",
-    "body": "linear-gradient(170deg, #06140f 0%, #0c2418 40%, #102a1c 70%, #071510 100%)",
-    "sidebar": "linear-gradient(180deg, rgba(6, 20, 14, 0.97) 0%, rgba(8, 28, 18, 0.98) 100%)",
+    "body": "linear-gradient(170deg, rgba(6,20,15,0.72) 0%, rgba(7,21,16,0.8) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(6,20,14,0.9) 0%, rgba(8,28,18,0.94) 100%)",
     "surface": "#071510",
     "canvas": "#0d1f16",
     "surface_soft": "#123222",
     "ink": "#e7f8ef",
     "muted": "#8fb9a2",
     "hairline": "#1d4a34",
-    "preview": "linear-gradient(135deg, #06140f 0%, #14532d 50%, #34d399 100%)"
+    "preview": "linear-gradient(135deg, #06140f 0%, #14532d 50%, #34d399 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

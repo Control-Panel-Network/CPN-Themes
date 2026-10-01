@@ -1,16 +1,3 @@
-/* Slate Pro: diagonal brushed-metal hint */
-.panel-layout main,
-.panel-main,
-main.content {
-  background-image: repeating-linear-gradient(
-    -18deg,
-    rgba(148, 163, 184, 0.035) 0px,
-    rgba(148, 163, 184, 0.035) 1px,
-    transparent 1px,
-    transparent 10px
-  );
-}
-
-.sidebar nav a.active {
-  border-left: 3px solid var(--cpn-accent, #94a3b8);
-}
+/* Slate Pro: keep chrome readable over the photo background */
+.panel-layout { position: relative; z-index: 1; }
+.sidebar { backdrop-filter: blur(8px); }

@@ -3,8 +3,8 @@
   "id": "slate-pro",
   "name": "Slate Pro",
   "description": "Compact slate workspace with a cool metal wash for dense operator dashboards.",
-  "author": "Control Panel Network",
-  "version": "1.1.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#94a3b8",
     "accent_focus": "#cbd5e1",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "dark",
-    "body": "linear-gradient(160deg, #0f141b 0%, #1a222e 45%, #151b24 100%)",
-    "sidebar": "linear-gradient(180deg, #121820 0%, #0f141b 100%)",
+    "body": "linear-gradient(160deg, rgba(15,20,27,0.72) 0%, rgba(15,20,27,0.82) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(18,24,32,0.92) 0%, rgba(15,20,27,0.95) 100%)",
     "surface": "#0f141b",
     "canvas": "#171e28",
     "surface_soft": "#1c2430",
     "ink": "#e8edf4",
     "muted": "#9aa8b8",
     "hairline": "#2a3442",
-    "preview": "linear-gradient(135deg, #0f141b 0%, #334155 55%, #94a3b8 100%)"
+    "preview": "linear-gradient(135deg, #0f141b 0%, #334155 55%, #94a3b8 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

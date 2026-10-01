@@ -3,8 +3,8 @@
   "id": "arctic-mint",
   "name": "Arctic Mint",
   "description": "Cool mint ice sheet with crisp cyan accents for bright daytime ops.",
-  "author": "Control Panel Network",
-  "version": "1.0.0",
+  "author": "master3395",
+  "version": "1.2.0",
   "tokens": {
     "accent": "#0d9488",
     "accent_focus": "#14b8a6",
@@ -14,14 +14,16 @@
   },
   "background": {
     "color_mode": "light",
-    "body": "linear-gradient(180deg, #f0fdfa 0%, #e6fffa 40%, #d5f5f0 100%)",
-    "sidebar": "linear-gradient(180deg, #ffffff 0%, #ecfeff 100%)",
+    "body": "linear-gradient(180deg, rgba(240,253,250,0.82) 0%, rgba(204,251,241,0.78) 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(236,254,255,0.94) 100%)",
     "surface": "#f0fdfa",
     "canvas": "#ffffff",
     "surface_soft": "#ccfbf1",
     "ink": "#134e4a",
     "muted": "#5f8f8a",
     "hairline": "#99f6e4",
-    "preview": "linear-gradient(135deg, #f0fdfa 0%, #99f6e4 50%, #0d9488 100%)"
+    "preview": "linear-gradient(135deg, #f0fdfa 0%, #99f6e4 50%, #0d9488 100%)",
+    "image": "assets/bg.webp",
+    "preview_image": "assets/preview.webp"
   }
 }

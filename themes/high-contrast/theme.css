@@ -1,17 +1,3 @@
-/* High Contrast: soft paper grid under the main column */
-.panel-layout main,
-.panel-main,
-main.content {
-  background-image:
-    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
-  background-size: 28px 28px;
-  background-attachment: local;
-}
-
-.section-card,
-.status-card,
-.activity-card,
-.resource-card {
-  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.06);
-}
+/* High Contrast: keep chrome readable over the photo background */
+.panel-layout { position: relative; z-index: 1; }
+.sidebar { backdrop-filter: blur(8px); }

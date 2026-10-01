@@ -1,20 +1,3 @@
-/* Ocean Blue: soft horizon bands */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background:
-    radial-gradient(ellipse 80% 40% at 20% 10%, rgba(56, 189, 248, 0.18), transparent 60%),
-    radial-gradient(ellipse 70% 45% at 90% 80%, rgba(14, 116, 144, 0.22), transparent 55%);
-}
-
-.panel-layout {
-  position: relative;
-  z-index: 1;
-}
-
-.sidebar {
-  backdrop-filter: blur(6px);
-}
+/* Ocean Blue: keep chrome readable over the photo background */
+.panel-layout { position: relative; z-index: 1; }
+.sidebar { backdrop-filter: blur(8px); }
