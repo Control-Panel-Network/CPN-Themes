@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "sandstone-ops",
+  "name": "Sandstone Ops",
+  "description": "Dusty stone control room with olive copper accents (industrial, not pastel).",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#b45309",
+    "accent_focus": "#d97706",
+    "radius_px": 10,
+    "density": "comfortable",
+    "font_scale": 1.0
+  },
+  "background": {
+    "color_mode": "dark",
+    "body": "linear-gradient(160deg, #1c1914 0%, #2a241c 42%, #221c16 100%)",
+    "sidebar": "linear-gradient(180deg, #201c16 0%, #18140f 100%)",
+    "surface": "#18140f",
+    "canvas": "#221c16",
+    "surface_soft": "#2c261e",
+    "ink": "#f5efe4",
+    "muted": "#b5a48a",
+    "hairline": "#4a4032",
+    "preview": "linear-gradient(135deg, #1c1914 0%, #78716c 45%, #b45309 100%)"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "copper-circuit",
+  "name": "Copper Circuit",
+  "description": "Navy board with copper trace accents and a quiet PCB grid.",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#d97706",
+    "accent_focus": "#f59e0b",
+    "radius_px": 10,
+    "density": "compact",
+    "font_scale": 0.99
+  },
+  "background": {
+    "color_mode": "dark",
+    "body": "linear-gradient(155deg, #07101c 0%, #0c1a2e 48%, #0a1524 100%)",
+    "sidebar": "linear-gradient(180deg, #0a1422 0%, #07101c 100%)",
+    "surface": "#07101c",
+    "canvas": "#0d1830",
+    "surface_soft": "#132240",
+    "ink": "#f8fafc",
+    "muted": "#9db0c9",
+    "hairline": "#243652",
+    "preview": "linear-gradient(135deg, #07101c 0%, #1e3a5f 45%, #d97706 100%)"
+  }
+}

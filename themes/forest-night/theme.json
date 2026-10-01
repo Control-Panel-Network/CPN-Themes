@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "forest-night",
+  "name": "Forest Night",
+  "description": "Quiet evergreen depths with moss highlights for long monitoring sessions.",
+  "author": "Control Panel Network",
+  "version": "1.0.0",
+  "tokens": {
+    "accent": "#34d399",
+    "accent_focus": "#6ee7b7",
+    "radius_px": 12,
+    "density": "comfortable",
+    "font_scale": 1.0
+  },
+  "background": {
+    "color_mode": "dark",
+    "body": "linear-gradient(170deg, #06140f 0%, #0c2418 40%, #102a1c 70%, #071510 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(6, 20, 14, 0.97) 0%, rgba(8, 28, 18, 0.98) 100%)",
+    "surface": "#071510",
+    "canvas": "#0d1f16",
+    "surface_soft": "#123222",
+    "ink": "#e7f8ef",
+    "muted": "#8fb9a2",
+    "hairline": "#1d4a34",
+    "preview": "linear-gradient(135deg, #06140f 0%, #14532d 50%, #34d399 100%)"
+  }
+}

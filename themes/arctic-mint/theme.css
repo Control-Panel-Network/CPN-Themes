@@ -1,0 +1,14 @@
+/* Arctic Mint: frost sparkle dots */
+.panel-layout main,
+.panel-main,
+main.content {
+  background-image:
+    radial-gradient(rgba(13, 148, 136, 0.09) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.section-card,
+.status-card,
+.activity-card {
+  border-color: color-mix(in srgb, #0d9488 18%, var(--hairline, #99f6e4));
+}

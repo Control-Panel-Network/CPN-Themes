@@ -2,8 +2,15 @@
   "schema_version": 1,
   "catalog": "CPN-Themes",
   "themes": [
+    { "id": "high-contrast", "path": "themes/high-contrast" },
     { "id": "ocean-blue", "path": "themes/ocean-blue" },
     { "id": "slate-pro", "path": "themes/slate-pro" },
-    { "id": "high-contrast", "path": "themes/high-contrast" }
+    { "id": "forest-night", "path": "themes/forest-night" },
+    { "id": "ember-forge", "path": "themes/ember-forge" },
+    { "id": "arctic-mint", "path": "themes/arctic-mint" },
+    { "id": "graphite-terminal", "path": "themes/graphite-terminal" },
+    { "id": "sandstone-ops", "path": "themes/sandstone-ops" },
+    { "id": "aurora-teal", "path": "themes/aurora-teal" },
+    { "id": "copper-circuit", "path": "themes/copper-circuit" }
   ]
 }

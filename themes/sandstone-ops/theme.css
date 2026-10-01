@@ -1,0 +1,17 @@
+/* Sandstone Ops: layered strata lines */
+.panel-layout main,
+.panel-main,
+main.content {
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(180, 83, 9, 0.04) 0px,
+    rgba(180, 83, 9, 0.04) 2px,
+    transparent 2px,
+    transparent 16px
+  );
+}
+
+.section-card,
+.status-card {
+  border-top: 2px solid color-mix(in srgb, #b45309 35%, transparent);
+}

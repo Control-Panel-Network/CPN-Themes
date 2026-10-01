@@ -1,0 +1,20 @@
+/* Graphite Terminal: scanline wash */
+.panel-layout main,
+.panel-main,
+main.content {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(74, 222, 128, 0.03) 0px,
+    rgba(74, 222, 128, 0.03) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+.sidebar nav a {
+  font-variant-numeric: tabular-nums;
+}
+
+.sidebar nav a.active {
+  text-shadow: 0 0 12px rgba(74, 222, 128, 0.35);
+}

@@ -1,0 +1,18 @@
+/* Ember Forge: furnace heat bloom */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 60% 35% at 70% 95%, rgba(245, 158, 11, 0.18), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 10% 20%, rgba(234, 88, 12, 0.1), transparent 65%);
+}
+
+.panel-layout { position: relative; z-index: 1; }
+
+.btn-primary, a.btn-primary {
+  color: #1a0f08;
+  font-weight: 700;
+}

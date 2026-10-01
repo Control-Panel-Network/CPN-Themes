@@ -2,14 +2,26 @@
   "schema_version": 1,
   "id": "ocean-blue",
   "name": "Ocean Blue",
-  "description": "Clear blue accents with comfortable density for everyday admin work.",
+  "description": "Deep blue depth layers with calm accents for everyday admin work.",
   "author": "Control Panel Network",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "tokens": {
-    "accent": "#2563eb",
-    "accent_focus": "#1d4ed8",
+    "accent": "#38bdf8",
+    "accent_focus": "#7dd3fc",
     "radius_px": 12,
     "density": "comfortable",
     "font_scale": 1.0
+  },
+  "background": {
+    "color_mode": "dark",
+    "body": "linear-gradient(165deg, #061525 0%, #0b2a45 42%, #0a3a5c 72%, #071a2e 100%)",
+    "sidebar": "linear-gradient(180deg, rgba(6, 22, 40, 0.96) 0%, rgba(8, 28, 48, 0.98) 100%)",
+    "surface": "#071a2e",
+    "canvas": "#0c243c",
+    "surface_soft": "#102f4a",
+    "ink": "#e8f4ff",
+    "muted": "#8fb4d4",
+    "hairline": "#1e4a6e",
+    "preview": "linear-gradient(135deg, #061525 0%, #0b3d66 50%, #38bdf8 100%)"
   }
 }

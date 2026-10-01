@@ -1,0 +1,16 @@
+/* Aurora Teal: northern light ribbons */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.9;
+  background:
+    radial-gradient(ellipse 70% 28% at 30% 12%, rgba(45, 212, 191, 0.22), transparent 70%),
+    radial-gradient(ellipse 55% 24% at 75% 18%, rgba(103, 232, 249, 0.16), transparent 68%),
+    radial-gradient(ellipse 60% 30% at 50% 100%, rgba(20, 184, 166, 0.12), transparent 70%);
+}
+
+.panel-layout { position: relative; z-index: 1; }
+.sidebar { backdrop-filter: blur(8px); }
